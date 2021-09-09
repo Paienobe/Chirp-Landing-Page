@@ -11,3 +11,7 @@ navLinks.forEach((link) => {
         navList.classList.remove("show-list")
     })
 })
+
+window.addEventListener("scroll", () => {
+    navList.classList.remove("show-list")
+})
